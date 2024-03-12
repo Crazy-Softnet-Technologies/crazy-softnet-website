@@ -592,6 +592,10 @@ label {
 .menu-style-two .navbar-wrap > ul > li:hover > a {
     color: var(--tg-primary-color);
 }
+.menu-style-two .navbar-wrap ul li .sub-menu li a:hover,
+.menu-style-two .navbar-wrap ul li .sub-menu li.active a {
+	color: var(--tg-primary-color);
+}
 .menu-style-two.sticky-menu {
 	background: var(--tg-black);
 	box-shadow: 0 10px 15px rgb(0 0 0 / 10%);

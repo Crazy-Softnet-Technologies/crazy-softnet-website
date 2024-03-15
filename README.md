@@ -1,1 +1,1 @@
-Live at : https://patellav.github.io/Company-Website/
+Live at : https://crazy-softnet-technologies.github.io/crazy-softnet-website/

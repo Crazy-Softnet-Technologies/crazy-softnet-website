@@ -54,7 +54,7 @@
 :root {
     --tg-body-font-family: 'Poppins', sans-serif;
     --tg-heading-font-family: 'Poppins', sans-serif;
-    --tg-primary-color: #F89E52;
+    --tg-primary-color: #f55f01;
     --tg-secondary-color: #3482FF;
     --tg-body-font-color: #666666;
     --tg-heading-font-color: #0B0B0B;
@@ -69,6 +69,7 @@
 	--tg-section-background-two: #1F1D28;
 	--tg-section-background-three: #26242D;
 	--tg-menu-color: #252541;
+	/* --tg-menu-color: #3b3d42; */
 	--tg-arrow-color: #6F7C90;
 	--tg-border-color: #F3F3F3;
 	--tg-border-color-two: #D9D9D9;
@@ -591,6 +592,10 @@ label {
 .menu-style-two .navbar-wrap > ul > li.active > a,
 .menu-style-two .navbar-wrap > ul > li:hover > a {
     color: var(--tg-primary-color);
+}
+.menu-style-two .navbar-wrap ul li .sub-menu li a:hover,
+.menu-style-two .navbar-wrap ul li .sub-menu li.active a {
+	color: var(--tg-primary-color);
 }
 .menu-style-two.sticky-menu {
 	background: var(--tg-black);
@@ -5567,7 +5572,7 @@ label {
 }
 #contact-map {
 	width: 100%;
-	height: 840px;
+	height: 565px;
 	margin-bottom: 80px;
 }
 #contact-map iframe {
